@@ -20,7 +20,9 @@ a{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1;
+
+    letter-spacing: 0.03em;
 
     color: #2196F3;
 }
@@ -30,9 +32,11 @@ a{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
 
-    color: #000000;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
  
 .page{
@@ -48,7 +52,9 @@ a{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
 
     color: #757575;
 }
@@ -58,6 +64,10 @@ a{
 }
 
 .contac:hover{
+    color: #2196F3;
+}
+
+.contac:focus{
     color: #2196F3;
 }
 
@@ -74,19 +84,38 @@ color: aliceblue;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
+
+    letter-spacing: 0.06em;
 
     background-color: #2196F3;
 }
 
-.section{
+.button-primary{
+    cursor: pointer;
+}
+
+.tittle{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+    
+        letter-spacing: 0.03em;
+
+        color: #212121;
+}
+.description{
     font-family:'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0;
+    line-height: 1.7;
 
-    color: #757575;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
 
 ._footer{
