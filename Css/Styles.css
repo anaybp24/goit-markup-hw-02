@@ -43,9 +43,10 @@ a{
     cursor: pointer;
 }
 
-.page:hover{
+.page:hover,
+.page:focus{
     color: #2196F3;
-}
+}   
 
 .contac{
     font-family: 'Roboto';
@@ -63,10 +64,7 @@ a{
     cursor: pointer;
 }
 
-.contac:hover{
-    color: #2196F3;
-}
-
+.contac:hover,
 .contac:focus{
     color: #2196F3;
 }
@@ -115,7 +113,7 @@ color: aliceblue;
 
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: #757575;
 }
 
 ._footer{
